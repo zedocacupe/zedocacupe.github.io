@@ -27,20 +27,14 @@
 		<div class="row-fluid">
 			<div class="span4">
 				<h2>Informa&ccedil;&otilde;es</h2>
-<!--
+
 				<strong>
-				<p>Prezados clientes e amigos,</p>
-				<p>Comunicamos que neste mês de Setembro abriremos também nas quintas e sextas-feiras à noite.</p>
-				<p>Portanto nosso horário de atendimento será: </p>
-				<p>TERÇA e QUARTA das 11h30 às 18h;</p>
-				<p>QUINTA e SEXTA das 11h30 às 22h;</p>
-				<p>SÁBADO das 11h30 às 18h;</p>
-				<p>DOMINGO das 11h30 às 16h.</p>
-				<p>Lembrando que também estamos atendendo para retirada no balcão e delivery.</p>
- 				<p>Agradecemos a compreensão.</p>
+				<p>Caros Clientes,</p>
+				<p>Em virtude do último decreto do governo do estado de Santa Catarina, neste final de semana trabalharemos apenas com <b>DELIVERY E RETIRADA NO BALCÃO.</b>></p>
+				<p>Agradecemos a compreensão de todos.</p>
 				<br />				
 				</strong>
--->
+
 <!--
 				<p>Faça seu pedido clicando no botão de Delivery a baixo</p>
 				<p><a href="https://www.goomer.app/ze-do-cacupe" class="btn-delivery">
@@ -423,9 +417,9 @@
 	function verificaHorario(){
 		var aberto = false;
 
-		var hora_atual = new Date();
+		var hoje = new Date();
 
-		var dia_semana = hora_atual.getDay();
+		var dia_semana = hoje.getDay();
 
 		const Sunday = 0;
 		const Monday = 1;
@@ -435,21 +429,43 @@
 		const Friday = 5;
 		const Saturday = 6;
 
-		var hora_atual = hora_atual.getHours()+":"+hora_atual.getMinutes()+":"+hora_atual.getSeconds();
+		var hora_atual = hoje.getHours()+":"+hoje.getMinutes()+":"+hoje.getSeconds();
 
-		console.log(hora_atual);
+		var mes = String(hoje.getMonth()+1);
 		
+		if(mes.length == 1){
+			mes = '0'+mes;
+		}
+
+		//var dia_atual = hoje.getDate()+"/"+mes+"/"+hoje.getFullYear();
+		var dia_atual = hoje.getFullYear()+"-"+mes+"-"+hoje.getDate();
+
+		var horario_carnaval = Date.parse(dia_atual+'T'+hora_atual) <= Date.parse('2021-02-22T00:00:00')
+
 		if(dia_semana == Sunday){
-			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
-				aberto = true;
+			if(horario_carnaval){
+				if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
+					aberto = true;
+				}
+			}else{
+				if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
+					aberto = true;
+				}
 			}
 		}
 
-		//if(dia_semana == Monday){
-		//	if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
-		//		aberto = true;
-		//	}
-		//}
+		if(dia_semana == Monday){
+			//if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
+			//	aberto = true;
+			//}
+			if(horario_carnaval){
+				if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
+					aberto = true;
+				}
+			}else{
+				aberto = false;
+			}
+		}
 
 		if(dia_semana == Tuesday){
 			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
