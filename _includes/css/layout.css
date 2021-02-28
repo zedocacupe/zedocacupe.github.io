@@ -22,6 +22,9 @@ body {
 .text-align-center {
   text-align: center;
 }
+.font-small {
+  font-size: 0.9em;
+}
 
 /* content */
 header,
@@ -103,7 +106,7 @@ img.icon {
   flex: 1;
 }
 .col-card-icon {
-  width: 30%;
+  width: 23%;
   flex: initial;
 }
 
