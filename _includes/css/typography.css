@@ -1,0 +1,35 @@
+/* Typography */
+::-moz-selection{
+  color:#fff;
+  background: #B09263;
+}
+::selection {
+  color:#fff;
+  background: #B09263;
+}
+
+body {
+  font: 16px/1.5, 'Open Sans', sans-serif;;
+}
+.font-italic {
+  font-style: italic;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+/* #headline */
+h1 {
+  margin: 10px 0;
+  font-size: 3.6em;
+  line-height: 1;
+  margin-bottom: .5em;
+  color: #552B06 !important;
+  font-weight: bold;
+  /*color: #9D1C1F !important;*/
+  /*text-transform: uppercase;*/
+  /*letter-spacing: -1px;*/
+}
+.font-bold {
+  font-weight: bold;
+}

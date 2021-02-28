@@ -1,509 +1,59 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>Z&eacute; do Cacup&eacute; - Restaurante de frutos do mar</title>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=320, user-scalable=false">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Bootstrap -->
-    <link href="./m/css/ze_mobile.css" rel="stylesheet">
-	
-  </head>
-<body>
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-	<section id="top">
-		
-	</section>
+---
+layout: page
+title: Zé do Cacupé
+---
 
-	<section>
-		<div class="row-fluid">
-			<div class="span4">
-				<h2>Informa&ccedil;&otilde;es</h2>
+<section class="section section-dark radius-top">
 
-				<strong>
-				<p>Caros Clientes,</p>
-				<p>Em virtude do último decreto do governo do estado de Santa Catarina, neste final de semana trabalharemos apenas com <b>DELIVERY E RETIRADA NO BALCÃO.</b></p>
-				<p>Agradecemos a compreensão de todos.</p>
-				<br />				
-				</strong>
+  {% include cardapio.html %}
 
-<!--
-				<p>Faça seu pedido clicando no botão de Delivery a baixo</p>
-				<p><a href="https://www.goomer.app/ze-do-cacupe" class="btn-delivery">
-					<img style="position:absolute;
-															width: 40px;
-															margin-top: -8px;
-															margin-left: -85px;" src="img/delivery.png" >
-					Delivery</a></p>
-				<p>
--->
-					<a href="https://wa.me/554833356229" class="btn-zap">
-						<img src="./m/img/zap.png" style="position:absolute;
-															width: 55px;
-															margin-top: -12px;
-															margin-left: -70px;" >(48) 3335.6229
-					</a>
-				</p>
-				<p><a href="tel:4833356229" class="btn">Fone: (48) 3335.6229</a></p>
-				
-				<p id="aberto_fechado" onLoad="verificaHorario();" style="color: green" ></p>
-				<p>Terça à Sábado 11:30 às 23:00</p>
-				<p>Domingo das 11:30 às 16:00</p>
-				<p>Segunda-feira fechado</p>
-			</div>
-		</div>
-	</section>
-	
-	<section class="cardapio">
-		<h2>Card&aacute;pio</h2>
-		
-		<dl>
-			<dt id="id1"><a id="#pen" class="sanfonaShow">Entradas</a></dt>
-			<dd style="display: none;">
-				<p>
-					<b>1. Casquinha de siri - R$ 13,90</b><br />
-					unidade 
-				</p>
-				<p>
-					<b>2. Bolinho de siri - R$ 13,90</b><br />
-					torpedo unidade 
-				</p>
-				<p>
-					<b>3. Lula na chapa - R$ 59,50</b>
-				</p>
-				<p>
-					<b>4. Ostra natural - R$ 36,00</b><br />
-					dúzia 
-				</p>
-				<p>
-					<b>5. Ostra ao bafo - R$ 36,00</b><br />
-					dúzia 
-				</p>
-				<p>
-					<b>6. Ostra gratinada - R$ 36,00</b><br />
-					1/2 dúzia 
-				</p>
-				<p>
-					<b>7. Camarão alho e óleo s/casca - R$ 99,00</b>
-				</p>				
-				<p>
-					<b>8. Isca de Filé de Congrio Rosa - R$ 79,50</b>
-				</p>
-				<p>
-					<b>9. Lula à milanesa - R$ 49,50</b>
-				</p>
-				<p>
-					<b>11. Camarão à milanesa - R$ 84,50</b>
-				</p>
-				<p>
-					<b>12. Camarão acebolado - R$ 99,00</b>
-				</p>
-				<p>
-					<b>13. Camarão ao bafo - R$ 72,00</b>
-				</p>
-				<p>
-					<b>14. Camarão ao alho e óleo - R$ 64,00</b>
-				</p>
-				<p>
-					<b>15. Porção do Tilica - R$ 109,50</b><br />
-					Lula, camarão, polvo, marisco na chapa
-				</p>
-				<p>
-					<b>16. Filé de sardinha - R$ 29,50</b>
-				</p>
-				<p>
-					<b>17. Camarão gratinado - R$ 17,50</b><br />
-					Porção Individual
-				</p>
-				<p>
-					<b>18. Camarão Mata Fome - R$ 139,50</b>
-				</p>
-				<p>
-					<b>19. Camarão Grelhado - R$ 99,00</b>
-				</p>
-				<p>
-					<b>20. Siri Gratinado - R$ 13,90</b><br />
-					Porção Individual
-				</p>
-<!--
-				<p>
-					<b>21. Bolinho de Bacalhau - R$ 27,50</b><br />
-					06 unidades
-				</p>
--->
-				<p>
-					<b>23. Pastel de Camarão - R$ 10,50</b><br />
-					unidade
-				</p>
-				<p>
-					<b>24. Pastel de Camarão c/ queijo - R$ 11,90</b><br />
-					unidade
-				</p>
-				<p>
-					<b>25. Pastel de Siri - R$ 10,50</b><br />
-					unidade
-				</p>
-				<a class="fecharSanfona">[x]Fechar</a>
-			</dd>
-		</dl>
-		<dl>
-			<dt id="id2"><a id="#sa" class="sanfonaShow">Pratos sem acompanhamento</a></dt>
-			<dd style="display: none;">
-				
-				<p><b>27. Camarão ensopado c/ chuchu - R$ 109,50</b></p>
+  <div class="row row-margin-top">
+    <div class="flex-grid" id="horarios">
+      <h2 class="col">
+        Horários
+      </h2>
+      <div class="row-label-icon col">
+        <img class="icon" src="/img/icons.svg#icon-star" alt="icone estrela do mar">
+      </div>
+    </div>
+    <div class="card">
+      <div class="flex-grid">
+        <div class="col col-card-icon">
+          <img class="icon" src="/img/icons.svg#icon-calendar" alt="icone estrela do mar">
+        </div>
+        <div class="col">
+          Terça à Sábado 11:30 às 23:00
+          <br>
+          Domingo das 11:30 às 16:00
+          <br>
+          Segunda-feira fechado
+        </div>
+      </div>
+    </div>
+  </div>
 
-				<p><b>29. Risoto de camarão c/ arroz parborizado - R$ 109,50</b></p>
 
-				<p><b>30. Risoto de frutos do mar c/ arroz parborizado - R$ 119,50</b></p>
+  <div class="row row-margin-top">
+    <div class="flex-grid" id="localizacao">
+      <h2 class="col">
+        Onde estamos?
+      </h2>
+      <div class="row-label-icon col">
+        <img class="icon" src="/img/icons.svg#icon-lamp" alt="icone estrela do mar">
+      </div>
+    </div>
+    <div class="card">
+      <div class="flex-grid">
+        <div class="col col-card-icon">
+          <img class="icon" src="/img/icons.svg#icon-location" alt="icone estrela do mar">
+        </div>
+        <div class="col">
+          Rodovia Haroldo Soares Glavan, 1964 Cacupé - Florianópolis - SC
+          <br>
+          <a class="button" href="#">Abrir no mapa</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-				<p><b>31. Moqueca de camarão - R$ 119,50</b></p>
-
-				<p><b>32. Anchova frita - R$ 69,50</b></p>
-
-				<p><b>33. Anchova na brasa - R$ 99,50</b></p>
-
-				<p><b>37. Filé de Congrio Rosa c/ molho de camarão - R$ 144,50</b></p>
-
-				<p><b>38. Filé de Congrio Rosa à milanesa - R$ 111,00</b></p>
-
-				<p><b>39. Filé de Congrio Rosa grelhado - R$ 111,00</b></p>
-
-				<p><b>40. Filé de Congrio Rosa grelhado c/ alcaparras - R$ 119,50</b></p>
-
-<!--
-				<p><b>35. Filé de de peixe à milanesa - R$ 69,50</b></p>
-
-				<p><b>36. Filé de de peixe à milanesa com molho de camarão - R$ 89,50</b></p>
--->
-				
-				<a class="fecharSanfona">[x]Fechar</a>
-			</dd>
-		</dl>
-		<dl>
-			<dt id="id2"><a id="#ac" class="sanfonaShow">Acompanhamentos</a></dt>
-			<dd style="display: none;">
-				
-				<p><b>52. Arroz - R$ 9,00</b></p>
-
-				<p><b>53. Arroz à grega - R$ 13,00</b></p>
-				
-				<p>
-					<b>54.Pirão * - R$ 9,00</b><br />
-					Segundo o Mané Almir Gentil(grande conhecedor de assuntos da ilha), o pirão pode ser, quanto à sua consistência, cardinho, churume, Ioque-Ioque e suquete.
-				</p>
-				
-				<p><b>55. Pirão de feijão - R$ 9,00</b></p>
-				
-				<p><b>56. Pirão d'água - R$ 8,00</b></p>
-				
-				<p><b>57. Batata frita - R$ 15,00</b></p>
-				
-				<p><b>58. Batata sautêe - R$ 15,00</b></p>
-				
-				<p><b>59. Salada mista - R$ 23,50</b></p>
-				
-				<p><b>60. Salada mista com palmito - R$ 29,50</b></p>
-				
-				<p><b>61. Salada de palmito - R$ 33,00</b></p>
-				
-				<p><b>62. Molho de camarão - R$ 35,00</b></p>
-				
-				<p><b>63. Farofa - R$ 9,00</b></p>
-				
-				<p><b>64. Alcaparras - R$ 10,00</b></p>
-				
-				<p><b>65. Feijão - R$ 8,00</b></p>
-				
-				<p><b>66. Legumes na manteiga - R$ 15,00</b></p>
-				
-				<p><b>69. Maionese - R$ 17,00</b></p>
-				
-				<p><b>70. Banana à milanesa (unidade) - R$ 3,00</b></p>
-				
-				<p><b>71. Abóbora Refogada - R$ 10,00</b></p>
-				
-				<p><b>72. Farofa de camarão - R$ 49,50</b></p>
-				
-				<a class="fecharSanfona">[x]Fechar</a>
-			</dd>
-		</dl>
-		<dl>
-			<dt id="id1"><a id="#pze" class="sanfonaShow">Pratos do Z&eacute; do Cacup&eacute;</a></dt>
-			<dd style="display: none;">
-				<p>
-					<b>41. Filé de Congrio Rosa à Zé do Cacupé - R$ 149,50</b><br />
-					Grelhado na chapa, c/ alcaparras, champignon e camarão grelhado, s/ acompanhamento
-				</p>
-				<p>
-					<b>42. Bacalhau da D. Zinha - R$ 185,50</b><br />
-					Filé de bacalhau grelhado em azeite de oliva com cebola, azeitona e batata cozida fatiada s/ acompanhamento
-				</p>
-				<p>
-					<b>68. Filé de Congrio Rosa à moda do Tilica - R$ 229,50</b><br />
-					Grelhado c/ alcaparras, champignon, camarão, lula e mariscos na chapa, s/ acompanhamento
-				</p>
-				<p>
-					<b>84. Peixe do Vô Vicente - R$ 149,50</b><br />
-					Tradicional peixe ensopado da ilha, s/ acompanhamento
-				</p>
-				<a class="fecharSanfona">[x]Fechar</a>
-			</dd>
-		</dl>
-		<dl>
-			<dt id="id2"><a id="#ca" class="sanfonaShow">Pratos com acompanhamento</a></dt>
-			<dd style="display: none;">
-				<p>
-					<b>76. Moqueca de frutos do mar -  R$ 209,50</b><br />
-					Arroz e farofa
-				</p>
-				
-				<p>
-					<b>77. Especial estrela do mar - R$ 209,50</b><br />
-					Camarão à milanesa, ao bafo, peixe frito, bolinho de peixe e peixe ao molho de camarão, arroz, pirão, fritas e salada
-				</p>
-				
-				<p>
-					<b>78. Camarão à grega - R$ 175,00</b><br />
-					Arroz à grega, fritas e salada
-				</p>
-
-				<p>
-					<b>79. Siri da Vó Zair -  R$ 129,50</b><br />
-					Carne de siri refogada na panela de barro
-				</p>
-				
-				<p>
-					<b>80. Camarão da Vó Vanda -  R$ 149,50</b><br />
-					Camarão gratinado com abóbora, moranga ou aipim e arroz
-				</p>
-				
-				<a class="fecharSanfona">[x]Fechar</a>
-			</dd>
-		</dl>
-		<dl>
-			<dt id="id2"><a id="#bebidas" class="sanfonaShow">Bebidas</a></dt>
-			<dd style="display: none;">
-				<p>
-					<b>Cervejas</b><br />
-				</p>
-				
-				<p>
-					<b>93. Brahma Chopp 600 ml - R$ 14,50</b><br />
-				</p>
-				
-				<p>
-					<b>94. Original 600 ml - R$ 17,50</b><br />
-				</p>
-				
-				<p>
-					<b>96. Malzbier 355 ml - R$ 9,90</b><br />
-				</p>
-				
-				<p>
-					<b>97. Stella Artois 275 ml - R$ 9,90</b><br />
-				</p>
-				
-				<p>
-					<b>98. Brahma s/ Alcool 355 ml - R$ 9,50</b><br />
-				</p>
-				
-				<p>
-					<b>101. Heineken 600 ml - R$ 17,50</b><br />
-				</p>
-				
-				<p>
-					<b>103. Eisenbahn Pilsen 600 ml - R$ 17,50</b><br />
-				</p>
-				
-				<p>
-					<b>104. Eisenbahn Estilos 355 ml - R$ 9,90</b><br />
-				</p>
-				
-<!--
-				<p>
-					<b>107. Serramalte 600 ml - R$ 15,90</b><br />
-				</p>
--->
-				
-				<p>
-					* Outras cervejas especiais, sob consulta.<br />
-				</p>
-				<br />
-				<p>
-					<b>Refrigerantes</b><br />
-				</p>
-				
-				<p>
-					<b>Garrafa 290 ml / Lata - R$ 6,90</b><br />
-				</p>
-				
-				<p>
-					<b>Pureza 600 ml vidro - R$ 8,50</b><br />
-				</p>
-				<br />
-				<p>
-					<b>Águas</b><br />
-				</p>
-				<p>
-					<b>501. Água mineral - R$ 5,50</b><br />
-				</p>
-				
-				<p>
-					<b>503. Água Tônica - R$ 6,50</b><br />
-				</p>
-				<br />
-				<p>
-					<b>* Carta de vinhos sob consulta</b><br />
-				</p>
-
-				
-				<a class="fecharSanfona">[x]Fechar</a>
-			</dd>
-		</dl>
-	</section>
-	
-	<section>
-		<h2>Localiza&ccedil;&atilde;o</h2>
-		<p><a href="https://maps.google.com.br/maps?q=Restaurante+Z%C3%A9+do+Cacup%C3%A9+-+Rodovia+Haroldo+Soares+Glavan,+Florian%C3%B3polis+-+SC&hl=pt&ie=UTF8&ll=-27.541268,-48.525817&spn=0.009798,0.016801&sll=-27.5422,-48.519251&sspn=0.012766,0.022531&oq=Z%C3%A9+do+Cacup%C3%A9+-+Florian%C3%B3polis+-+SC&hq=Restaurante+Z%C3%A9+do+Cacup%C3%A9+-+Rodovia+Haroldo+Soares+Glavan,+Florian%C3%B3polis+-+SC&radius=15000&t=m&z=16" target="_blank">Rodovia Haroldo Soares Glavan, 1964 Cacup&eacute; - Florian&oacute;polis - SC</a></p>
-		<p><img src="http://maps.gstatic.com/favicon3.ico" />
-		<a href="https://maps.google.com.br/maps?q=Restaurante+Z%C3%A9+do+Cacup%C3%A9+-+Rodovia+Haroldo+Soares+Glavan,+Florian%C3%B3polis+-+SC&hl=pt&ie=UTF8&ll=-27.541268,-48.525817&spn=0.009798,0.016801&sll=-27.5422,-48.519251&sspn=0.012766,0.022531&oq=Z%C3%A9+do+Cacup%C3%A9+-+Florian%C3%B3polis+-+SC&hq=Restaurante+Z%C3%A9+do+Cacup%C3%A9+-+Rodovia+Haroldo+Soares+Glavan,+Florian%C3%B3polis+-+SC&radius=15000&t=m&z=16" target="_blank">Abrir no Google Maps >></a></p>
-	</section>
-	
-	<!--
-<section class="facebook">
-	<div class="fb-like" data-href="http://zedocacupe.com.br" data-send="false" data-width="320" data-show-faces="true" data-font="verdana"></div>
-	</section>
--->
-	
-	<footer>
-		<p><a class="btn" href="http://zedocacupe.com.br/index.php?mode=desktop">Site completo &raquo;</a></p>
-		<p>Z&eacute; do Cacup&eacute; 2013 - Mobile</p>
-	</footer>
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-	$(document).ready(function(){
-	// function sanfona FAQ toggle with close button
-		$(function(){
-			$("dd").hide();
-			$("dt a").click(function(){
-				$(".sanfonaShow").css('color', '#ffffff');
-				if($(this).parent().next().is(':visible')){
-					$(this).parent().next().slideUp('600');
-				}else{
-					$(this).css('color', '#444');
-					$("dd:visible").slideUp('600');
-					$(this).parent().next().slideDown('600');
-				}
-			});
-			$("a.fecharSanfona").click(function(){
-				$("dt a").css('color', '#ffffff');
-				$("dd:visible").slideUp('600');
-			});
-		});
-	});
-	</script>
-</body>
-</html>
-<script>
-	function verificaHorario(){
-		var aberto = false;
-
-		var hoje = new Date();
-
-		var dia_semana = hoje.getDay();
-
-		const Sunday = 0;
-		const Monday = 1;
-		const Tuesday = 2;
-		const Wednesday = 3;
-		const Thursday = 4;
-		const Friday = 5;
-		const Saturday = 6;
-
-		var hora_atual = hoje.getHours()+":"+hoje.getMinutes()+":"+hoje.getSeconds();
-
-		var mes = String(hoje.getMonth()+1);
-		
-		if(mes.length == 1){
-			mes = '0'+mes;
-		}
-
-		//var dia_atual = hoje.getDate()+"/"+mes+"/"+hoje.getFullYear();
-		var dia_atual = hoje.getFullYear()+"-"+mes+"-"+hoje.getDate();
-
-		var horario_carnaval = Date.parse(dia_atual+'T'+hora_atual) <= Date.parse('2021-02-22T00:00:00')
-
-		if(dia_semana == Sunday){
-			if(horario_carnaval){
-				if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-					aberto = true;
-				}
-			}else{
-				if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
-					aberto = true;
-				}
-			}
-		}
-
-		if(dia_semana == Monday){
-			//if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
-			//	aberto = true;
-			//}
-			if(horario_carnaval){
-				if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-					aberto = true;
-				}
-			}else{
-				aberto = false;
-			}
-		}
-
-		if(dia_semana == Tuesday){
-			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-				aberto = true;
-			}
-		}
-
-		if(dia_semana == Wednesday){
-			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-				aberto = true;
-			}
-		}
-
-		if(dia_semana == Thursday){
-			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-				aberto = true;
-			}
-		}
-
-		if(dia_semana == Friday){
-			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-				aberto = true;
-			}
-		}
-
-		if(dia_semana == Saturday){
-			if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-				aberto = true;
-			}
-		}
-
-		if(aberto){
-			$('#aberto_fechado').html('Estamos ABERTOS.');
-			$('#aberto_fechado').css('color', 'green');
-		}else{
-			$('#aberto_fechado').html('Estamos FECHADOS, verifique a baixo nosso horário de funcionamento.');
-			$('#aberto_fechado').css('color', 'red');
-		}
-	}
-	verificaHorario();
-</script>
+</section>

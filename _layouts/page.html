@@ -1,0 +1,15 @@
+{% include head.html %}
+  <body>
+    <div class="container">
+      <div class="container-inside">
+        <div class="content">
+          {% include header_page.html %}
+          <main id="content" role="main" class="content-wrap">
+            {{ content }}
+          </main>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
