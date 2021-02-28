@@ -32,6 +32,7 @@
   height: 210px;
   overflow-x: auto;
   width: auto;
+  margin-right: -50px;
 }
 .restaurant-menu-container .row .menu-item {
   width: 245px;

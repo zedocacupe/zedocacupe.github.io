@@ -19,6 +19,10 @@ body {
   color: #1a1a1a;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 /* content */
 header,
 section,
@@ -38,7 +42,7 @@ footer.footer {
 }
 .footer-content {
   text-align: center;
-  padding: 40px 0;
+  /* padding: 40px 0; */
 }
 .footer-copy {
   color: #fff;
@@ -59,6 +63,7 @@ img.footer-pattern {
   display: flex;
 }
 .header-content {
+  width: 100%;
   align-self: flex-end;
   text-align: right;
   font-weight: bold;
@@ -77,6 +82,7 @@ img.icon {
 
 
 /*Grid*/
+.row-flex.row-margin-top,
 .row-margin-top {
   margin-top: 40px;
 }
@@ -147,8 +153,6 @@ img.icon {
   width: 100%;
 }
 
-
-
 .card {
   width: 100%;
   padding: 20px;
@@ -157,4 +161,9 @@ img.icon {
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
+}
+
+img.stamp {
+  width: 100px;
+  text-align: center;
 }

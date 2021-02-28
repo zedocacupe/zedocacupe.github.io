@@ -111,11 +111,9 @@ $(document).ready(function(){
       $('#aberto_fechado').html('Abertos hoje <br> até às 23:00');
       $('#aberto_fechado').css('color', 'black');
     }else{
-      $('#aberto_fechado').html('Estamos FECHADOS <br> <a href="/#horarios"> Ver horários </a>');
+      $('#aberto_fechado').html('Estamos <br> Fechados <br> <a href="/#horarios"> Ver horários </a>');
       $('#aberto_fechado').css('color', 'red');
     }
   }
   verificaHorario();
-
-
 });//wrapper end
