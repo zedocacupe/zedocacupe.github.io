@@ -9,8 +9,9 @@ a.button,
   font-weight: bold;
   background: #053059;
   color: #ffffff;
-  padding: 6px 18px;
+  padding: 10px 20px;
   display: inline-block;
+  text-align: center;
   margin: 20px 0 0 0;
   text-decoration: none;
   -webkit-border-radius: 50px;
@@ -19,6 +20,15 @@ a.button,
 }
 a.button:hover,
 .button:hover {
-  background: #9D1C1F;
+  background: #00AEEF;
   color: #fff;
+}
+
+.button.button-WhatsApp {
+  margin-top: 0;
+  background: #23D366 !important;
+}
+
+.button-full-width {
+  width: 100%;
 }

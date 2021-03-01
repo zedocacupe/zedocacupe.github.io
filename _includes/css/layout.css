@@ -83,8 +83,18 @@ img.footer-pattern {
 img.icon {
   width: auto;
 }
+.icon.icon-whatsapp {
+  width: 20px;
+  vertical-align: text-top;
+  margin-right: 10px;
+}
 
-
+.col-phone-number {
+  text-align: center;
+}
+.row-awards {
+  margin-top: 80px !important;
+}
 /*Grid*/
 .row-flex.row-margin-top,
 .row-margin-top {
@@ -166,8 +176,14 @@ img.icon {
      -moz-border-radius: 10px;
           border-radius: 10px;
 }
+.card .flex-grid {
+  align-items: flex-start;
+}
 
 img.stamp {
-  width: 100px;
+  width: 120px;
   text-align: center;
+}
+.stamp-award {
+  margin-top: 5px;
 }
