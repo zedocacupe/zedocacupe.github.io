@@ -39,7 +39,7 @@ section {
 footer.footer {
   color: #fff;
   background: #053059;
-  margin: -1px 0 0 0;
+  margin: -1px auto;
   padding: 30px 0 0 0;
   border-bottom: 2px solid #053059;
 }
