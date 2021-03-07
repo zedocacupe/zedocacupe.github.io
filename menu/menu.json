@@ -1,0 +1,494 @@
+{
+  "menu": {
+    "entradas": [
+      {
+        "id": "1",
+        "photo": "",
+        "title": "Casquinha de siri",
+        "price": "13,90",
+        "info": "(unidade)",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "photo": "",
+        "title": "Bolinho de siri",
+        "price": "13,90",
+        "info": "(torpedo unidade)",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "photo": "",
+        "title": "Lula na chapa",
+        "price": "R$ 59,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "4",
+        "photo": "",
+        "title": "Ostra natural",
+        "price": "R$ 36,00",
+        "info": "dúzia",
+        "description": ""
+      },
+      {
+        "id": "5",
+        "photo": "",
+        "title": "Ostra ao bafo",
+        "price": "R$ 36,00",
+        "info": "dúzia",
+        "description": ""
+      },
+      {
+        "id": "6",
+        "photo": "",
+        "title": "Ostra gratinada",
+        "price": "R$ 36,00",
+        "info": "1/2 dúzia",
+        "description": ""
+      },
+      {
+        "id": "7",
+        "photo": "",
+        "title": "Camarão alho e óleo s/casca",
+        "price": "R$ 99,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "8",
+        "photo": "",
+        "title": "Isca de Filé de Congrio Rosa",
+        "price": "R$ 79,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "9",
+        "photo": "",
+        "title": "Lula à milanesa",
+        "price": "R$ 49,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "11",
+        "photo": "",
+        "title": "Camarão à milanesa",
+        "price": "R$ 84,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "12",
+        "photo": "",
+        "title": "Camarão acebolado",
+        "price": "R$ 99,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "13",
+        "photo": "",
+        "title": "Camarão ao bafo",
+        "price": "R$ 72,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "14",
+        "photo": "",
+        "title": "Camarão ao alho e óleo",
+        "price": "R$ 64,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "15",
+        "photo": "",
+        "title": "Porção do Tilica",
+        "price": "R$ 109,50",
+        "info": "",
+        "description": "Lula, camarão, polvo, marisco na chapa"
+      },
+      {
+        "id": "16",
+        "photo": "",
+        "title": "Filé de sardinha",
+        "price": "R$ 29,50",
+        "info": "",
+        "description": "Lula, camarão, polvo, marisco na chapa"
+      },
+      {
+        "id": "17",
+        "photo": "",
+        "title": "Camarão gratinado",
+        "price": "R$ 17,50",
+        "info": "",
+        "description": "Porção Individual"
+      },
+      {
+        "id": "18",
+        "photo": "",
+        "title": "Camarão Mata Fome",
+        "price": "R$ 139,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "19",
+        "photo": "",
+        "title": "Camarão Grelhado",
+        "price": "R$ 99,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "20",
+        "photo": "",
+        "title": "Siri Gratinado",
+        "price": "R$ 13,90",
+        "info": "",
+        "description": "Porção Individual"
+      },
+      {
+        "id": "23",
+        "photo": "",
+        "title": "Pastel de Camarão",
+        "price": "R$ 10,50",
+        "info": "(unidade)",
+        "description": ""
+      },
+      {
+        "id": "24",
+        "photo": "",
+        "title": "Pastel de Camarão c/ queijo",
+        "price": "R$ 11,90",
+        "info": "(unidade)",
+        "description": ""
+      },
+      {
+        "id": "25",
+        "photo": "",
+        "title": "Pastel de Siri",
+        "price": "R$ 10,50",
+        "info": "(unidade)",
+        "description": ""
+      }
+    ],
+    "sem_acompanhamento": [
+      {
+        "id": "27",
+        "photo": "",
+        "title": "Camarão ensopado c/ chuchu",
+        "price": "R$ 109,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "29",
+        "photo": "",
+        "title": "Risoto de camarão c/ arroz parborizado",
+        "price": "R$ 109,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "30",
+        "photo": "",
+        "title": "Risoto de frutos do mar c/ arroz parborizado",
+        "price": "R$ 119,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "31",
+        "photo": "",
+        "title": "Moqueca de camarão",
+        "price": "R$ 119,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "32",
+        "photo": "",
+        "title": "Anchova frita",
+        "price": "R$ 69,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "33",
+        "photo": "",
+        "title": "Anchova na brasa",
+        "price": "R$ 99,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "37",
+        "photo": "",
+        "title": "Filé de Congrio Rosa c/ molho de camarão",
+        "price": "R$ 144,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "38",
+        "photo": "",
+        "title": "Filé de Congrio Rosa à milanesa",
+        "price": "R$ 111,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "39",
+        "photo": "",
+        "title": "Filé de Congrio Rosa grelhado",
+        "price": "R$ 111,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "40",
+        "photo": "",
+        "title": "Filé de Congrio Rosa grelhado c/ alcaparras",
+        "price": "R$ 119,50",
+        "info": "",
+        "description": ""
+      }
+    ],
+    "com_acompanhamento": [
+      {
+        "id": "76",
+        "photo": "",
+        "title": "Moqueca de frutos do mar",
+        "price": "R$ 209,50",
+        "info": "",
+        "description": "+ Arroz e farofa"
+      },
+      {
+        "id": "77",
+        "photo": "",
+        "title": "Especial estrela do mar",
+        "price": "R$ 209,50",
+        "info": "",
+        "description": "Camarão à milanesa, ao bafo, peixe frito, bolinho de peixe e peixe ao molho de camarão, arroz, pirão, fritas e salada"
+      },
+      {
+        "id": "78",
+        "photo": "",
+        "title": " Camarão à grega",
+        "price": "R$ 175,00",
+        "info": "",
+        "description": "+ Arroz à grega, fritas e salada"
+      },
+      {
+        "id": "79",
+        "photo": "",
+        "title": " Siri da Vó Zair",
+        "price": "R$ 129,50",
+        "info": "",
+        "description": "Carne de siri refogada na panela de barro"
+      },
+      {
+        "id": "80",
+        "photo": "",
+        "title": "Camarão da Vó Vanda",
+        "price": "R$ 149,50",
+        "info": "",
+        "description": "Camarão gratinado com abóbora, moranga ou aipim e arroz"
+      }
+    ],
+    "pratos_do_ze_do_cacupe": [
+      {
+        "id": "41",
+        "photo": "",
+        "title": "Filé de Congrio Rosa à Zé do Cacupé",
+        "price": "R$ 149,50",
+        "info": "",
+        "description": "Grelhado na chapa, c/ alcaparras, champignon e camarão grelhado, s/ acompanhamento"
+      },
+      {
+        "id": "42",
+        "photo": "",
+        "title": "Bacalhau da D. Zinha",
+        "price": "R$ 149,50",
+        "info": "",
+        "description": "Filé de bacalhau grelhado em azeite de oliva com cebola, azeitona e batata cozida fatiada s/ acompanhamento"
+      },
+      {
+        "id": "68",
+        "photo": "",
+        "title": "Filé de Congrio Rosa à moda do Tilica",
+        "price": "R$ 229,50",
+        "info": "",
+        "description": "Grelhado c/ alcaparras, champignon, camarão, lula e mariscos na chapa, s/ acompanhamento"
+      },
+      {
+        "id": "84",
+        "photo": "",
+        "title": "Peixe do Vô Vicente",
+        "price": "R$ 149,50",
+        "info": "",
+        "description": "Tradicional peixe ensopado da ilha, s/ acompanhamento"
+      }
+    ],
+    "acompanhamentos": [
+      {
+        "id": "52",
+        "photo": "",
+        "title": "Arroz",
+        "price": "R$ 9,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "53",
+        "photo": "",
+        "title": "Arroz à grega",
+        "price": "R$ 13,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "54",
+        "photo": "",
+        "title": "Pirão",
+        "price": "R$ 9,00",
+        "info": "",
+        "description": "Segundo o Mané Almir Gentil(grande conhecedor de assuntos da ilha), o pirão pode ser, quanto à sua consistência, cardinho, churume, Ioque-Ioque ou suquete."
+      },
+      {
+        "id": "55",
+        "photo": "",
+        "title": "Pirão de feijão",
+        "price": "R$ 9,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "56",
+        "photo": "",
+        "title": "Pirão d'água",
+        "price": "R$ 8,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "57",
+        "photo": "",
+        "title": "Batata frita",
+        "price": "R$ 15,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "58",
+        "photo": "",
+        "title": "Batata sautêe",
+        "price": "R$ 15,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "59",
+        "photo": "",
+        "title": "Salada mista",
+        "price": "R$ 23,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "60",
+        "photo": "",
+        "title": "Salada mista com palmito",
+        "price": "R$ 29,50",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "61",
+        "photo": "",
+        "title": "Salada de palmito",
+        "price": "R$ 33,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "62",
+        "photo": "",
+        "title": "Molho de camarão",
+        "price": "R$ 35,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "63",
+        "photo": "",
+        "title": "Farofa",
+        "price": "R$ 9,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "64",
+        "photo": "",
+        "title": "Alcaparras",
+        "price": "R$ 9,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "65",
+        "photo": "",
+        "title": "Feijão",
+        "price": "R$ 8,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "66",
+        "photo": "",
+        "title": "Legumes na manteiga",
+        "price": "R$ 15,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "69",
+        "photo": "",
+        "title": "Maionese",
+        "price": "R$ 17,00",
+        "info": "",
+        "description": ""
+      },
+      {
+        "id": "70",
+        "photo": "",
+        "title": "Banana à milanesa",
+        "price": "R$ 3,00",
+        "info": "(unidade)",
+        "description": ""
+      },
+      {
+        "id": "71",
+        "photo": "",
+        "title": "Abóbora Refogada",
+        "price": "R$ 10,00",
+        "info": "(unidade)",
+        "description": ""
+      },
+      {
+        "id": "72",
+        "photo": "",
+        "title": "Farofa de camarão",
+        "price": "R$ 49,50",
+        "info": "",
+        "description": ""
+      }
+    ]
+  }
+}
