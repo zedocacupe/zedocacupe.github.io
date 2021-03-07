@@ -1,0 +1,34 @@
+{% include head.html %}
+  <body>
+    <div class="container">
+      <div class="container-inside">
+        <div class="content">
+          {% include header_page.html %}
+          <main id="content" role="main" class="content-wrap">
+            <div class="menu-page-hero radius-top overflow-hiden">
+              <img width="100%" src="/img/hero-pratos-ze-do-cacupe.png" alt="Pratos do Zé do Cacupé">
+              <div class="menu-item-title radius-top">
+                <div class="flex-grid">
+                  <h2 class="col">
+                    {{ page.headline }}
+                  </h2>
+                  <div class="row-label-icon col">
+                    <img class="icon" src="/img/icons.svg#icon-spoon" alt="icone estrela do mar">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <section class="section menu-page">
+              <ul class="menu-page-list"></ul>
+            </section>
+            {{ content }}
+            <section class="section section-dark radius-top">
+              {% include cardapio.html %}
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

@@ -178,7 +178,7 @@
         "description": ""
       }
     ],
-    "sem_acompanhamento": [
+    "pratos_sem_acompanhamento": [
       {
         "id": "27",
         "photo": "",
@@ -260,7 +260,7 @@
         "description": ""
       }
     ],
-    "com_acompanhamento": [
+    "pratos_com_acompanhamento": [
       {
         "id": "76",
         "photo": "",
