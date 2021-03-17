@@ -1,0 +1,10 @@
+@media only screen and (min-width:820px){
+  .container,
+  .footer {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width:450px){
+}

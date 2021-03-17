@@ -1,0 +1,21 @@
+title: Zé do Cacupé Restaurante
+restaurant_name: Zé do Cacupé
+email: .
+description: >- # this means to ignore newlines until "baseurl:"
+  Um ótimo lugar para degustar as delícias do mar do litoral catarinense, fundado por José Eliseo da Silva em 1987, o Zé do Cacupé é um dos restaurantes mais tradicionais de Florianópolis. Próximo existem belas praias e locais históricos.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/Sao_Paulo
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- vendor
