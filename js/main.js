@@ -50,7 +50,7 @@ $(document).ready(function(){
     //var dia_atual = hoje.getDate()+"/"+mes+"/"+hoje.getFullYear();
     var dia_atual = hoje.getFullYear()+"-"+mes+"-"+hoje.getDate();
 
-    var horario_carnaval = Date.parse(dia_atual+'T'+hora_atual) <= Date.parse('2021-11-03T00:00:00')
+    var horario_carnaval = true;//Date.parse(dia_atual+'T'+hora_atual) <= Date.parse('2021-11-03T00:00:00');
 
     if(dia_semana == Sunday){
       if(horario_carnaval){
