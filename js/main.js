@@ -60,7 +60,7 @@ $(document).ready(function(){
     }
 
     if(dia_semana == Monday){
-      if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 17:00:00')){
+      if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
       	aberto = true;
       }
     }
