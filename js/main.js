@@ -50,42 +50,50 @@ $(document).ready(function(){
     //var dia_atual = hoje.getDate()+"/"+mes+"/"+hoje.getFullYear();
     var dia_atual = hoje.getFullYear()+"-"+mes+"-"+hoje.getDate();
 
-    var horario_carnaval = Date.parse(dia_atual+'T'+hora_atual) <= Date.parse('2022-01-02T00:00:00');
+    var horario_carnaval = Date.parse(dia_atual+'T'+hora_atual) <= Date.parse('2022-03-03T00:00:00');
 
     if(dia_semana == Sunday){
-       if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
-          aberto = true;
-       }
-      
+       if(horario_carnaval){
+         if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 17:00:00')){
+            aberto = true;
+         }
+       }else{
+         if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 16:00:00')){
+            aberto = true;
+         }
+       }   
     }
 
     if(dia_semana == Monday){
-      if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
-      	aberto = true;
+      if(horario_carnaval){
+        if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
+          aberto = true;
+        }
+      }else{
+        aberto = false;
       }
     }
 
     if(dia_semana == Tuesday){
-      //if(horario_carnaval){
-      //  aberto = false;
-        //if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 17:30:00')){
-        //  aberto = true;
-        //}
-      //} else {
+      if(horario_carnaval){
+        if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 17:00:00')){
+          aberto = true;
+        }
+      } else {
         if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
           aberto = true;
         }
-      //}
+      }
     }
 
     if(dia_semana == Wednesday){
-      //if(horario_carnaval){
-        //aberto = false;
-      //} else {
+      if(horario_carnaval){
+        aberto = false;
+      } else {
         if(Date.parse('01/01/2011 '+hora_atual) >= Date.parse('01/01/2011 11:30:00') && Date.parse('01/01/2011 '+hora_atual) <= Date.parse('01/01/2011 23:00:00')){
           aberto = true;
         }
-      //}
+      }
     }
 
     if(dia_semana == Thursday){
