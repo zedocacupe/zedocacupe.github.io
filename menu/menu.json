@@ -5,7 +5,7 @@
         "id": "1",
         "photo": "",
         "title": "Casquinha de siri",
-        "price": "15,90",
+        "price": "16,90",
         "info": "(unidade)",
         "description": ""
       },
@@ -13,7 +13,7 @@
         "id": "2",
         "photo": "",
         "title": "Bolinho de siri",
-        "price": "15,90",
+        "price": "16,90",
         "info": "(torpedo unidade)",
         "description": ""
       },
@@ -85,7 +85,7 @@
         "id": "11",
         "photo": "",
         "title": "Camarão à milanesa",
-        "price": "R$ 99,50",
+        "price": "R$ 109,50",
         "info": "",
         "description": ""
       },
@@ -117,7 +117,7 @@
         "id": "15",
         "photo": "",
         "title": "Porção do Tilica",
-        "price": "R$ 129,50",
+        "price": "R$ 139,50",
         "info": "",
         "description": "Lula, camarão, polvo, marisco na chapa"
       },
@@ -173,7 +173,7 @@
         "id": "23",
         "photo": "",
         "title": "Pastel de Camarão",
-        "price": "R$ 12,50",
+        "price": "R$ 13,50",
         "info": "(unidade)",
         "description": ""
       },
@@ -181,7 +181,7 @@
         "id": "24",
         "photo": "",
         "title": "Pastel de Camarão c/ queijo",
-        "price": "R$ 13,50",
+        "price": "R$ 16,50",
         "info": "(unidade)",
         "description": ""
       },
@@ -207,7 +207,7 @@
         "id": "27",
         "photo": "",
         "title": "Camarão ensopado c/ chuchu",
-        "price": "R$ 139,50",
+        "price": "R$ 149,50",
         "info": "",
         "description": ""
       },
@@ -215,7 +215,7 @@
         "id": "29",
         "photo": "",
         "title": "Risoto de camarão c/ arroz parborizado",
-        "price": "R$ 139,50",
+        "price": "R$ 149,50",
         "info": "",
         "description": ""
       },
@@ -223,7 +223,7 @@
         "id": "30",
         "photo": "",
         "title": "Risoto de frutos do mar c/ arroz parborizado",
-        "price": "R$ 159,50",
+        "price": "R$ 169,50",
         "info": "",
         "description": ""
       },
@@ -239,7 +239,7 @@
         "id": "32",
         "photo": "",
         "title": "Anchova frita",
-        "price": "R$ 89,50",
+        "price": "R$ 99,50",
         "info": "",
         "description": ""
       },
@@ -247,7 +247,7 @@
         "id": "33",
         "photo": "",
         "title": "Anchova na brasa",
-        "price": "R$ 119,50",
+        "price": "R$ 129,50",
         "info": "",
         "description": ""
       },
@@ -255,7 +255,7 @@
         "id": "37",
         "photo": "",
         "title": "Filé de Congrio Rosa c/ molho de camarão",
-        "price": "R$ 169,50",
+        "price": "R$ 179,50",
         "info": "",
         "description": ""
       },
@@ -263,7 +263,7 @@
         "id": "38",
         "photo": "",
         "title": "Filé de Congrio Rosa à milanesa",
-        "price": "R$ 134,50",
+        "price": "R$ 139,50",
         "info": "",
         "description": ""
       },
@@ -271,7 +271,7 @@
         "id": "39",
         "photo": "",
         "title": "Filé de Congrio Rosa grelhado",
-        "price": "R$ 134,50",
+        "price": "R$ 139,50",
         "info": "",
         "description": ""
       },
@@ -279,7 +279,7 @@
         "id": "40",
         "photo": "",
         "title": "Filé de Congrio Rosa grelhado c/ alcaparras",
-        "price": "R$ 142,50",
+        "price": "R$ 152,50",
         "info": "",
         "description": ""
       }
@@ -313,7 +313,7 @@
         "id": "79",
         "photo": "",
         "title": " Siri da Vó Zair",
-        "price": "R$ 175,00",
+        "price": "R$ 185,00",
         "info": "",
         "description": "Carne de siri refogada na panela de barro"
       },
@@ -339,7 +339,7 @@
         "id": "41",
         "photo": "",
         "title": "Filé de Congrio Rosa à Zé do Cacupé",
-        "price": "R$ 175,00",
+        "price": "R$ 185,00",
         "info": "",
         "description": "Grelhado na chapa, c/ alcaparras, champignon e camarão grelhado, s/ acompanhamento"
       },
@@ -355,7 +355,7 @@
         "id": "68",
         "photo": "",
         "title": "Filé de Congrio Rosa à moda do Tilica",
-        "price": "R$ 265,00",
+        "price": "R$ 275,00",
         "info": "",
         "description": "Grelhado c/ alcaparras, champignon, camarão, lula e mariscos na chapa, s/ acompanhamento"
       },
@@ -363,7 +363,7 @@
         "id": "84",
         "photo": "",
         "title": "Peixe do Vô Vicente",
-        "price": "R$ 175,00",
+        "price": "R$ 185,00",
         "info": "",
         "description": "Tradicional peixe ensopado da ilha, s/ acompanhamento"
       }
@@ -413,7 +413,7 @@
         "id": "57",
         "photo": "",
         "title": "Batata frita",
-        "price": "R$ 18,00",
+        "price": "R$ 20,00",
         "info": "",
         "description": ""
       },
@@ -421,7 +421,7 @@
         "id": "58",
         "photo": "",
         "title": "Batata sautêe",
-        "price": "R$ 18,00",
+        "price": "R$ 20,00",
         "info": "",
         "description": ""
       },
@@ -453,7 +453,7 @@
         "id": "62",
         "photo": "",
         "title": "Molho de camarão",
-        "price": "R$ 45,00",
+        "price": "R$ 49,50",
         "info": "",
         "description": ""
       },
@@ -469,7 +469,7 @@
         "id": "64",
         "photo": "",
         "title": "Alcaparras",
-        "price": "R$ 12,00",
+        "price": "R$ 15,00",
         "info": "",
         "description": ""
       },
